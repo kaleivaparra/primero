@@ -1,0 +1,14 @@
+Message-ID: <e5adb06f6ef91e096f9c5f22168734a4@localhost>
+Date: Wed, 13 Apr 2016 21:19:31 +0200
+Subject: Confirmar registro
+From: =?utf-8?Q?Aplicaci=C3=B3n?= Yii <kaleivaparra@gmail.com>
+To: kleiva@ubiobio.cl
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Haga click en el siguiente enlace para finalizar tu registro</h1><a hre=
+f=3D'http://localhost/arla/web/index.php?r=3Dsite/confirm&id=3D18&authKey=
+=3D5691ccef1b284d01d3d8b642597db44f59d412d39099adbbca8700a2c15a076433ee5fae=
+ece0d34b970b20e7001c215ff3ee725e2d1defa14a76350334b4203099b47af53521e2fdd2b=
+721143f3315f715705961321aba2f51eef3fc2f97d09477011eb4'>Confirmar</a>

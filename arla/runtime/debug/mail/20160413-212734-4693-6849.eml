@@ -1,0 +1,14 @@
+Message-ID: <0e6363a5785d926941051c2106a4b13c@localhost>
+Date: Wed, 13 Apr 2016 21:27:24 +0200
+Subject: Confirmar registro
+From: =?utf-8?Q?Aplicaci=C3=B3n?= Yii <kaleivaparra@gmail.com>
+To: karinita_1236@hotmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Haga click en el siguiente enlace para finalizar tu registro</h1><a hre=
+f=3D'http://localhost/arla/web/index.php?r=3Dsite/confirm&id=3D19&authKey=
+=3D1ebf43d086a2152185dc449ed8f9ade43ae3ebdf6748eb292ce458912481eed04bee6ac4=
+2ec4a70898e14169560015a223dece8fcb2638cdebc510176e551259e0a408203e6ea067147=
+ec6bb4c80f4e7844129b7979c0ed8321d51251091cd5b1ed32f15'>Confirmar</a>
