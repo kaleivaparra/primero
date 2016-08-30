@@ -29,19 +29,26 @@ use yii\debug\Toolbar;
     <tr>
       <td id="logo"><span class='navbar-brand'><a href='#'><span id="wsite-title"><img src="<?php echo Yii::$app->request->baseUrl;?>/css/images/logo ARLA_1.jpg" width="180px"</></span></a></span></td>
       <td id="header-right">
-          <form method="get">
-              <div class="search"><input type="search" placeholder="Buscar" name="q" value="<?=isset($_GET['q']) ? CHtml::encode($_GET['q']) : '' ; ?>" />
-                  <input type="submit" value="BUSCAR" /></div>
-</form>
+<ul class="nav"><li><a href="/arla/web/index.php?r=site%2Flogin">BUSCAR</a></li></ul></form>
+<!--<input id="boton_de_buscar" value="Buscar" type="submit" /></form>-->
           </td>
       <td id="header-right">
      <?php echo Menu::widget(array(
         'options' => array('class' => 'nav'),
         'items' => array(
-            array('label' => 'Contacto', 'url' => array('/site/contact')),
           Yii::$app->user->isGuest ?
-            array('label' => 'Login', 'url' => array('/site/login')) :
-            array('label' => 'Logout (' . Yii::$app->user->identity->usu_username .')' , 'url' => array('/site/logout')),
+            array('label' => 'INGRESAR', 'url' => array('/site/login')) :
+            array('label' => 'SALIR (' . Yii::$app->user->identity->usu_username .')' , 'url' => array('/site/logout')),
+          ),
+          
+      )); ?>
+
+      </td>
+      <td id="header-right">
+     <?php echo Menu::widget(array(
+        'options' => array('class' => 'nav'),
+        'items' => array(
+            array('label' => 'CONTACTO', 'url' => array('/site/contact')),
           ),
           
       )); ?>
@@ -59,7 +66,7 @@ use yii\debug\Toolbar;
           array('label' => 'DIRECTORIO DE EVALUADORES', 'url' => array('/evaluadores/index_')),
           array('label' => 'DIRECTORIO DE REVISTAS', 'url' => array('/inscripcion-revista-arla/index_')),
           array('label' => 'REGISTRO DE REVISTAS', 'url' => array('/usuario/create')),
-          array('label' => 'CONVOCATORIAS VIGENTES', 'url' => array('/site/contact')),
+          array('label' => 'CONVOCATORIAS VIGENTES', 'url' => array('/convocatoria/convocatorias')),
         ),
       )); ?>
       <div class="clear"></div>
@@ -96,6 +103,10 @@ use yii\debug\Toolbar;
                   });
                   
                   $('#carousel-historico').waltzer({
+                          scroll:4, 
+                          circular:false
+                  });
+                  $('#carousel-index').waltzer({
                           scroll:4, 
                           circular:false
                   });

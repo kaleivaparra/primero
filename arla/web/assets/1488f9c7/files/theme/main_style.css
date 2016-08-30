@@ -240,7 +240,7 @@ blockquote {
 
 #header td {
 	vertical-align: middle;
-	text-align: left;
+	text-align: right;
 }
 
 #logo {
@@ -249,6 +249,17 @@ blockquote {
 
 #header-right {
 	padding: 0 15px 0 10px;
+        width: 8%;
+        font-family: "Saira-CondensedLight";
+        color: #F06424;
+        font-size: 11.5px;
+}
+
+#header-right a {
+	padding: 0 15px 0 10px;
+        width: 100%;
+        font-family: "Saira-CondensedLight";
+        color: #F06424;
 }
 
 #header-right table {
@@ -459,7 +470,7 @@ blockquote {
 --------------------------------------------------------------------------------*/
 
 .tall-header-page .wsite-header {  /* the user-editable image */
-	height: 400px;
+	height: 250px;
 	//background: url(banner-tall.jpg) no-repeat;
 }
 
@@ -776,7 +787,7 @@ states (normal, :hover, :active) have their sprite coordinates in the same place
 }
 
 .art-conv{
-     width: 33.33333333%;
+     width: 25%;
      float: left;
      padding-right: 20px;
      border-right: 2px solid #A5AAAA;
@@ -789,8 +800,9 @@ states (normal, :hover, :active) have their sprite coordinates in the same place
 
 .cata-historico{
      float: left;
-     width: 66.66666666%;
+     width: 75%;
      padding-left: 20px;
+     padding-top: 20px;
 }
 
 .nucl-coordinador{
@@ -893,6 +905,31 @@ td{
     border-color: #ab4104;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #F06424;
+    border-color: #ab4104;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #ab4104;
+    border-color: #ab4104;
+}
+
 .banderas {
     margin-left: 8px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-family: "Saira-CondensedLight";
+    font-size: 14px;
+}
+
+.form-control, .help-block, .select2-search__field{
+    font-family: "Saira-CondensedLight";
+    font-size: 12px;
 }

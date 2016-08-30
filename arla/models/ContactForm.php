@@ -37,7 +37,11 @@ class ContactForm extends Model
     public function attributeLabels()
     {
         return [
-            'verifyCode' => 'Verification Code',
+            'verifyCode' => 'Código de Verificación',
+            'name' => 'Nombre',
+            'email' => 'Correo Electrónico',
+            'subject' => 'Asunto',
+            'body' => 'Mensaje'
         ];
     }
 
@@ -46,8 +50,8 @@ class ContactForm extends Model
      * @param  string  $email the target email address
      * @return boolean whether the model passes validation
      */
-    public function contact($email)
-    {
+    public function contact($email) 
+    {     
         if ($this->validate()) {
             Yii::$app->mailer->compose()
                 ->setTo($email)

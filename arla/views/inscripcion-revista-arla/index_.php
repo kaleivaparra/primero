@@ -77,10 +77,42 @@ $this->params['breadcrumbs'][] = $this->title;
                     <img src="<?php echo Yii::$app->request->baseUrl; ?>/css/images/Urbano.jpg"</>
                     <h6>Urbano <h7> / 32</h7></h6>
                 </div>
+                <div class="item-2">
+                    <img src="<?php echo Yii::$app->request->baseUrl; ?>/css/images/1.100.jpg" </>
+                    <h6>1:100 <h7> / 55</h7></h6>
+                </div>
+                <div class="item-2">
+                    <img src="<?php echo Yii::$app->request->baseUrl; ?>/css/images/Arquitectura.jpg"</>
+                    <h6>Revista de Arquitectura <h7> / 30</h7></h6>
+                </div>
+                <div class="item-2">
+                    <img src="<?php echo Yii::$app->request->baseUrl; ?>/css/images/Corazonada.jpg"</>
+                    <h6>Corazonada <h7> / 12</h7></h6>
+                </div>
+                <div class="item-2">
+                    <img src="<?php echo Yii::$app->request->baseUrl; ?>/css/images/Urbano.jpg"</>
+                    <h6>Urbano <h7> / 32</h7></h6>
+                </div>
             </div>  
             <div class="cat-historico">
                 <h1>ARCHIVO</h1>
                 <div id="carousel-historico" class='outerWrapper-2'>
+                    <div class="item-2">
+                        <img src="<?php echo Yii::$app->request->baseUrl; ?>/css/images/1.100.jpg" </>
+                        <h6>1:100 <h7> / 55</h7></h6>
+                    </div>
+                    <div class="item-2">
+                        <img src="<?php echo Yii::$app->request->baseUrl; ?>/css/images/Arquitectura.jpg"</>
+                        <h6>Revista de Arquitectura <h7> / 30</h7></h6>
+                    </div>
+                    <div class="item-2">
+                        <img src="<?php echo Yii::$app->request->baseUrl; ?>/css/images/Corazonada.jpg"</>
+                        <h6>Corazonada <h7> / 12</h7></h6>
+                    </div>
+                    <div class="item-2">
+                        <img src="<?php echo Yii::$app->request->baseUrl; ?>/css/images/Urbano.jpg"</>
+                        <h6>Urbano <h7> / 32</h7></h6>
+                    </div>
                     <div class="item-2">
                         <img src="<?php echo Yii::$app->request->baseUrl; ?>/css/images/1.100.jpg" </>
                         <h6>1:100 <h7> / 55</h7></h6>
